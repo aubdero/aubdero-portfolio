@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aubrey DeRobertis</title>
+<meta name="description" content="Project work by Aubrey DeRobertis, including business analysis and data-driven case studies.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <a href="index.html">Home</a>
+  <a href="projects.html" aria-current="page">Projects</a>
+  <a href="contact.html">Contact</a>
+</header>
+
+<main class="projects-page">
+  <pre class="ascii-art ascii-header" role="img" aria-label="projects">                        _           __
+    ____  _________    (_)__  _____/ /______
+   / __ \/ ___/ __ \  / / _ \/ ___/ __/ ___/
+  / /_/ / /  / /_/ / / /  __/ /__/ /_(__  )
+ / .___/_/   \____/_/ /\___/\___/\__/____/
+/_/              /___/                      </pre>
+
+  <div class="projects-list">
+
+    <article class="project">
+      <div class="project-top">
+        <img
+          class="project-image"
+          src="assets/chicvintage.png"
+          alt="Chic Vintage Business Analysis project preview">
+
+        <div class="project-summary">
+          <h2 class="project-title">Chic Vintage Business Analysis</h2>
+          <p class="project-blurb">
+            A partnership with Chic Vintage, a women-owned vintage resale
+            shop in Knoxville, to analyze four months of sales data
+            (March–June) and turn raw Lightspeed exports into actionable
+            business insights.
+          </p>
+          <div class="tech-badges">
+            <span class="tech-badge">Python</span>
+            <span class="tech-badge">pandas</span>
+            <span class="tech-badge">SQLite</span>
+            <span class="tech-badge">Tableau</span>
+            <span class="tech-badge">Claude Code</span>
+          </div>
+        </div>
+      </div>
+
+      <details class="project-details">
+        <summary class="project-toggle">
+          <span class="toggle-label">View project details</span>
+          <span class="chevron" aria-hidden="true">▾</span>
+        </summary>
+        <div class="project-more">
+          <ul class="project-stats">
+            <li>$59K+ in revenue across 884 transactions — with clear revenue spikes tied to local events like the Big Ears Festival and Mother's Day weekend</li>
+            <li>Multi-item baskets drove 198% higher order value than single-item purchases ($102 vs. $34 AOV)</li>
+            <li>Top 10 brands accounted for 47.7% of revenue — informing a data-driven brand scorecard</li>
+            <li>A targeted Wednesday discount analysis, surfacing ways to protect margin while still driving traffic</li>
+          </ul>
+          <p>
+            The process included cleaning messy retail data (typos,
+            inconsistent naming) using Python and pandas, constructing a
+            SQLite database for querying, and visualizing findings in
+            Tableau — then translating it all into prioritized, low-cost
+            recommendations the owners could act on immediately.
+          </p>
+        </div>
+      </details>
+    </article>
+
+  </div>
+</main>
+
+</body>
+</html>

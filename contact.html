@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aubrey DeRobertis</title>
+<meta name="description" content="Get in touch with Aubrey DeRobertis via the contact form or LinkedIn.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <a href="index.html">Home</a>
+  <a href="projects.html">Projects</a>
+  <a href="contact.html" aria-current="page">Contact</a>
+</header>
+
+<main class="contact-page">
+  <pre class="ascii-art ascii-header" role="img" aria-label="contact">                    __             __
+  _________  ____  / /_____ ______/ /_
+ / ___/ __ \/ __ \/ __/ __ `/ ___/ __/
+/ /__/ /_/ / / / / /_/ /_/ / /__/ /_
+\___/\____/_/ /_/\__/\__,_/\___/\__/  </pre>
+
+  <a class="linkedin-link" href="https://www.linkedin.com/in/aubdero/" target="_blank" rel="noopener noreferrer">
+    Connect with me on LinkedIn ↗
+  </a>
+
+  <form id="contact-form" class="contact-form" novalidate>
+    <label for="name">Name
+      <input type="text" id="name" name="name" required autocomplete="name">
+    </label>
+
+    <label for="subject">Subject
+      <input type="text" id="subject" name="subject" required>
+    </label>
+
+    <label for="message">Message
+      <textarea id="message" name="message" required></textarea>
+    </label>
+
+    <label class="honeypot-field" aria-hidden="true">
+      Leave this field empty
+      <input type="text" name="_honey" tabindex="-1" autocomplete="off">
+    </label>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <p id="form-error" class="form-error hidden" role="alert"></p>
+
+  <p id="thank-you-message" class="thank-you hidden" role="status">
+    Thank you for contacting me! Your message has been sent, and I'll get
+    back to you soon.
+  </p>
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
